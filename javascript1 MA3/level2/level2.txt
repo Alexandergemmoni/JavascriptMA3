@@ -1,0 +1,42 @@
+JavaScript MA03
+----------------
+Level 2
+
+1. In your own words, describe what JavaScript Code Style is.
+We should compensate with writing code with strict discipline because JavaScript´s loose typing and excessive error tolerance provide little compile-time assurance of our program´s quality. By writing in a clear and consistent style, your programs become easier to read. Style matters in programming for the same reason that it matters in writing- it makes for better reading. 
+It doesn´t really matter how our code is written, as long as it works. But for it to work, we have to be able to understand and read it. So thats why the style is important. 
+
+For example: use whitespace where it can be, indent your codes and use one statement each line. 
+So, JavaScript code style is a specific way of writing code that makes it easier to read and understand- which will make your code less likely for errors. It should be consistent and clear. Example: use spaces, wrapping and braces, blank lines, punctuation and attangement and set form. 
+
+2. What is a Regular Expression?
+Regular expressions are patterns used to match character combinations in strings. They are also objects. And they use special codes to detect patterns and strings. This lets us for example validate email addresses. You can set up regular ecpressions by using forward slash in the start and at the end. 
+These patterns are used with the exec and test method of RegExp, and with the match, relplace, search and split methods of string. 
+
+3. What does the .random() method do?
+The .random() method returns a random number from 0 up to- but not including 1. 
+Different ranges can be achieved by using arithmetic operations. 
+
+4. What does the .sort() method do?
+The .sort() method sorts the items of an array. The order can be either alphabetic or numeric, and either ascending (up) or descending (down). It sorts the elements of an array in place and returns the array. The default sort order is built upon converting the elements into strings, then comparing thei sequencees of UTF-16 code unit values. 
+
+5. What does the .reverse() method do?
+The .reverse() method reverses an array in place. The first array element becomes the last and the last array element becomes the first. 
+
+6. List two examples of bad JavaScript code.
+if('20' == 20) return true;
+
+var myColor = "red"
+            
+if (myColor === "red")
+console.log("It´s red");
+            
+7. What data types can a JSON object contain?
+The JSON object can contain 6 data types: object, arrays, strings, numbers, booleans and null. 
+
+8. What is minifying JavaScript Code?
+Minifying JavaScript code is the process of removing all unnecessary characters from soruce code without changing its functionality. These unnecessary characters usually include new line characters, white space characters, comments and sometimes block delimiters, which are used to add readability to the code but are not required for it to execute. 
+Minifying JavaScript code is one of the main methods used to reduce load times and bandwidth usage on websites. It improves site speed and accessibility, directly translating into a better user experience. It´s also beneficial to users accessing your website through a limited data plan and who would like to save on their bandwidth usage while surfing the web. 
+
+9. What is a global variable?
+A global variable has global scope, which means it can be defined anywhere in your JavaScript code. Within the body of a function, a local variable takes precendence over a global variable with the same name. This is why some developers says it´s bad to use (but better for smaller applications). If you where to use the same name in a local variable as in your global variable, this would take precedence over the global and it would make your code fail. 
